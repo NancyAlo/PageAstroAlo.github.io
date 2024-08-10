@@ -133,7 +133,7 @@ menu {
         width: 100%;
     }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 500px){
 
     .menu .navbar ul {
         width: 100%;
