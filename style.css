@@ -47,9 +47,7 @@ header{
 .menu .navbar ul {
     list-style: none;
     width: 100%;
-    max-width: 1500px;
-    max-width: 720px;
-
+    max-width: 1000px;
 }
 
 .menu .navbar ul li {
@@ -133,7 +131,7 @@ menu {
         width: 100%;
     }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 370px){
 
     .menu .navbar ul {
         width: 100%;
