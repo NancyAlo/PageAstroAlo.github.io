@@ -19,7 +19,8 @@ header{
 }
 
 .container {
-    max-width: 1100px;
+    width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
 
 }
@@ -84,8 +85,8 @@ menu {
 
 .header-text {
     text-align: center;
-    width: 700px;
-
+    width: 100%;
+    max-width: 1000px;
 }
 
 .header-text h1 {
@@ -117,5 +118,23 @@ menu {
     background-color: rgb(21, 122, 169);
     transform: scale(1.5); 
     
+}
+
+@media screen and (max-width: 800px){
+
+    .container {
+        width: 100%;
+    }
+
+@media screen and (max-width: 400px){
+
+    .container {
+        width: 100%;
+    }
+
+
+}
+
+
 }
 
